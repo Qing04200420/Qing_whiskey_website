@@ -1,0 +1,41 @@
+.productComponent{
+    margin: 100px auto;
+}
+
+.productComponent .content{
+    text-align: center;
+    margin: 70px auto;
+}
+
+.productComponent .content h6{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.productComponent .content h6 span{
+    font-weight: 900;
+    font-size:54px;
+    color: var(--main);
+}
+
+.productComponent .box{
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.4),
+    inset 10px 10px 10px -10px rgba(0,0,0,0.8);
+    padding: 25px;
+}
+
+.productComponent .box:hover{
+    background: #000;
+    color: #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.productComponent .box img{
+    width: 100%;
+    height: 37vh;
+}
+
+.productComponent .row .col-md-4{  
+    padding-top: 20px;
+}

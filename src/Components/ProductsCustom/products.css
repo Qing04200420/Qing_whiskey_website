@@ -1,41 +1,73 @@
-.productComponent{
+.productComponent {
     margin: 100px auto;
 }
 
-.productComponent .content{
+.container.productComponent .content {
     text-align: center;
     margin: 70px auto;
 }
 
-.productComponent .content h6{
+.container.productComponent input {
+    position: relative;
+    top: 25px;
+}
+
+.productComponent .content h6 {
     font-size: 50px;
     font-weight: 600;
 }
 
-.productComponent .content h6 span{
+.productComponent .content h6 span {
     font-weight: 900;
-    font-size:54px;
+    font-size: 54px;
     color: var(--main);
 }
 
-.productComponent .box{
-    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.4),
-    inset 10px 10px 10px -10px rgba(0,0,0,0.8);
-    padding: 25px;
+.productComponent .box .price {
+    text-align: center;
 }
 
-.productComponent .box:hover{
+.productComponent .box .price button {
+    margin-top: 15px;
+}
+
+.productComponent .box .price span.red {
+    color: red;
+}
+
+.productComponent .box {
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.4),
+        inset 10px 10px 10px -10px rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    height: 100%;
+}
+
+.productComponent .box:hover {
     background: #000;
     color: #fff;
-    transform: scale(1.05);
+    transform: scale(0.95);
     cursor: pointer;
 }
 
-.productComponent .box img{
+.productComponent .box img {
     width: 100%;
     height: 37vh;
 }
 
-.productComponent .row .col-md-4{  
+.productComponent .row .col-md-4 {
     padding-top: 20px;
+}
+
+.productComponent div.toggle {
+    text-align: center;
+    font-size:24px;
+}
+
+.productComponent div.toggle .inputId {
+    position: relative;
+    right: 10px;
+    transform: translate(-5px, 10px);
+    margin-bottom: 30px;
+    width: 20px;
+    height: 20px;
 }
